@@ -1,0 +1,191 @@
+<html><head><title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+BODY {
+background-color: #000000;
+color: #808080;
+font-family: arial;
+}
+
+A {
+color: #808080;
+text-decoration: none;
+}
+
+A:hover {
+color: #0050AA;
+}
+
+IMG {
+margin: 2px;
+}
+
+.icons {
+margin: auto;
+}
+
+.icons td {
+width: 75px;
+text-align: center;
+}
+
+.links {
+display: none;
+text-align: center;
+}
+
+UL {
+  list-style-type: none;
+  padding: 0px;
+}
+ 
+LI {
+  padding: 3px;
+}
+
+</style>
+
+<base target="_blank">
+
+<script language="javascript">
+
+function hideLinks() {
+  for (var i = 1; i < 7; i++)
+    document.getElementById('link' + i).style.display='none';
+}
+
+function showLinks(num) {
+  hideLinks();
+  document.getElementById('link' + num).style.display='inline';
+}
+
+</script>
+
+</head>
+
+<body onclick="hideLinks();">
+
+<table class="icons">
+<tr onmouseover="hideLinks()">
+<td><a href="http://www.gmail.com/"><img src="gmail.png"></td>
+<td><a href="http://www.google.com/calendar"><img src="cal.png"></a></td>
+<td><a href="https://drive.google.com/drive/#recent"><img src="drive.png"></a></td>
+<td><a href="http://maps.google.com"><img src="maps.png"></a></td>
+<td><a href="http://news.google.com"><img src="news2.png"></a></td>
+<td><a href="http://www.youtube.com"><img src="youtube.jpg"></a></td>
+</tr>
+<tr>
+<td><a href="https://bradleykh.github.io/HoneyInterface/"><img src="wrench.png" onmouseover="showLinks(1);"></a></td>
+<td><a href="https://docs.google.com/spreadsheets/d/1hRvh5WWrXLQOlMo_IESJaZD_VbpUc1qyxVAWazNRqxg/"><img src="home.png" onmouseover="showLinks(2);"></a></td>
+<td><a href="https://docs.google.com/spreadsheets/d/1fZQuEy_kNMFmgY_m80FgMhi9hiiu7JddhQWUa1IU5AY/edit"><img src="doc.png" onmouseover="showLinks(4);"></a></td>
+<td><img src="code.png" onmouseover="showLinks(5);"></td>
+<td><a href="http://www.github.com"><img src="github.png" onmouseover="showLinks(6);"></a></td>
+<td><img src="grid.png" onmouseover="showLinks(3);"></td>
+</tr>
+</table>
+
+<br><br>
+
+<!-- TOOLS -->
+<div class="links" id="link1">
+<ul>
+<li><a href="https://bradleykh.github.io/HoneyInterface/">Honey</a>
+<li><a href="https://bradleykh.github.io/WhiskInterface/">Whisk</a>
+<li><a href="http://www.intellicast.com/Local/Weather.aspx?location=USAL0054">Intellicast</a>
+<li><a href="../recipes/index.html">Old Recipe Library</a>
+<li><a href="http://translate.google.com/">Google Translate</a>
+<li><a href="http://dictionary.reference.com">Dictionary</a>
+<li><a href="http://fast.com">Fast.com</a>
+<li><a href="http://www.wikipedia.org">Wikipedia</a>
+<li><a href="http://www.wordpress.com">WordPress</a>
+<li><a href="http://www.alabamawx.com">AlabamaWX</a>
+</ul>
+</div>
+
+<!-- HOME -->
+<div class="links" id="link2">
+<ul>
+<li><a href="http://www.avadiancu.com">Avadian</a>
+<li><a href="https://creditcards.citi.com/">Citi</a>
+<li><a href="http://www.bcbsal.com">BCBS AL</a>
+</ul>
+
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1TEwgk4J1hKRs4zv0z8G7BcyLlrUwqeHiOIoZDX0ZBOE">Utilities Log</a>
+<li><a href="https://docs.google.com/spreadsheets/d/1TTWMsqp7AO_c38mh2lFYHcivLaigUXnz4zE9Odus1k0">Water Usage</a>
+<li><a href="http://www.att.com">AT&T</a>
+<li><a href="https://web.bwwb.org/myaccount">BWWB</a>
+<li><a href="http://mrcooper.com">Mr. Cooper</a>
+<li><a href="https://www.spireenergy.com/">Spire</a>
+<li><a href="http://hooveralabama.gov/954/My-Hoover-Connect">My Hoover</a> [<a href="http://www.hooveralabama.gov/308/Garbage-Recycling">G+R</a>]
+</ul>
+</div>
+
+<!-- DOCS -->
+<div class="links" id="link4">
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1y2ztFcs1KDJpqEts9GSG7ztDj5fJ0EjwYHUaOcXjPE0/edit">Contact Info</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/1WemT1eDeIX7sWZd1o91N6EP5s7IRDwvYsQJlmCh0aTQ/edit">Home Care</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/1fZQuEy_kNMFmgY_m80FgMhi9hiiu7JddhQWUa1IU5AY/edit">Logins</a></li>
+</ul>
+
+<ul>
+<li>My Coding Guides:</li>
+<li><a href="https://docs.google.com/document/d/1HJr2MAOQZF6W_EExLd0mVLhB8SOHBU_ysqnn1R3j32E/edit">Angular/MEAN</a></li>
+<li><a href="https://docs.google.com/document/d/13A08hBuJjSYeKTBZ45V6kxKT1S3Gd_Fv0WOVc1DSUN0/edit">ASP.NET MVC</a></li>
+<li><a href="https://docs.google.com/document/d/1KkVD4TCUqsB8Kfs0cPc-H9J_Dy4xKIX-UGZyG9BT3iA/edit">ES2015</a></li>
+<li><a href="https://docs.google.com/document/d/1Y_JpvlxfCGE1xd4VBrvsQgXD8IXUrEoxTVyLN3kaRGo/edit">Git</a></li>
+<li><a href="https://docs.google.com/document/d/15oOdAH2uGIKuIbplCrjjw4qIZSzKUH3Ko_dT2wYnSJQ/edit">Heroku/Node</a></li>
+<li><a href="https://docs.google.com/document/d/1pjc8NQ6bnipP6J2D7aA3E-YDnK7WKTjzWpCKWhCwLO8/edit">MySQL</a></li>
+<li><a href="https://docs.google.com/document/d/1ZiN7l-pF6ixESnQXrE9Xnt6CCsqFslrApp8Y0WY6228/edit">React/Redux</a></li>
+</ul>
+</div>
+
+<!-- CODE -->
+<div class="links" id="link5">
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1uQ6EJ9m5VMhEcYQv0gl8H90Zk7NuPEKGsh2k1q6falo/edit#gid=0">My Coding Ideas</a></li>
+<li><a href="https://codepen.io/">CodePen</a>
+<li><a href="https://portal.azure.com">Azure</a> | <a href="http://www.mlab.com">mLab</a> | <a href="http://www.gearhost.com">GearHost</a> | <a href="http://www.heroku.com">Heroku</a>
+<li><a href="https://www.freecodecamp.org/">Free Code Camp</a>
+<li><a href="https://www.udemy.com">Udemy</a>
+</ul>
+</div>
+
+<!-- GITHUB -->
+<div class="links" id="link6">
+<ul>
+<li><a href="https://github.com/BradleyKH/Brisk">Brisk</a></li>
+<li><a href="https://github.com/BradleyKH/CubeTools">CubeTools</a></li>
+<li><a href="https://github.com/BradleyKH/Cruncher">Cruncher</a></li>
+<li><a href="https://github.com/BradleyKH/Honey">Honey</a> | <a href="https://github.com/BradleyKH/HoneyInterface">Interface</a></li>
+<li><a href="https://github.com/BradleyKH/lmh">lmh</a></li>
+<li><a href="https://github.com/BradleyKH/NickelAndDimeSketch">Nickel &amp; Dime</a></li>
+<li><a href="https://github.com/BradleyKH/SaveTheKitty">SaveTheKitty</a></li>
+<li><a href="https://github.com/BradleyKH/Whisk">Whisk</a> | <a href="https://github.com/BradleyKH/WhiskInterface">Interface</a></li>
+</ul>
+</div>
+
+<!-- GAMES -->
+<div class="links" id="link3">
+<ul>
+<li><a href="http://online-go.com">OGS</a>
+<li><a href="http://senseis.xmp.net/?ReferenceSection">Sensei's Library</a>
+<li><a href="http://ps.waltheri.net/">Fuseki Database</a>
+</ul>
+
+<ul>
+<li><a href="http://www.chess.com">Chess.com</a>
+<li><a href="http://www.chessdom.com">Chessdom</a>
+<li><a href="http://www.fide.com">FIDE</a>
+<li><a href="http://www.chess.com/analysis-board-editor">Analysis Board</a>
+</ul>
+
+<ul>
+<li><a href="https://bradleykh.github.io/Chessboard">My Chessboard</a>
+<li><a href="http://cubetools.net">CubeTools</a>
+<li><a href="https://savethekitty.azurewebsites.net/">Save the Kitty</a>
+</ul>
+</div>
+
+</body></html>
